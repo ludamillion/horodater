@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/ludamillion/horodater/badges/gpa.svg)](https://codeclimate.com/github/ludamillion/horodater)
+
 # Horodater
 
 Sometimes you just want to stamp the time on something. Horodater is a
