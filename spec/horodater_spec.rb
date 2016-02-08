@@ -5,7 +5,9 @@ describe Horodater do
     expect(Horodater::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'YYYYMMDD::() returns a string formatted year-month-day' do
+    Timecop.freeze(Time.local(1982, 12, 15, 12, 6, 0))
+
+    expect(Horodater::YYYYMMDD::()).to eq("1982-12-15")
   end
 end

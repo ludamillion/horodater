@@ -1,5 +1,3 @@
 require "horodater/version"
+require "horodater/yyyymmdd"
 
-module Horodater
-  # Your code goes here...
-end

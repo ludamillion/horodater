@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Horodater::VERSION
   spec.authors       = ["Luke Inglis"]
   spec.email         = ["ld.inglis@gmail.com"]
+  spec.date          = Time.now.strftime("%Y-%m-%d")
 
   spec.summary       = %q{A handy little collection of timestamping functors.}
   spec.homepage      = "https://github.com/ludamillion/horodater"
@@ -21,4 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "timecop"
 end
